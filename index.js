@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { Client, GatewayIntentBits } = require("discord.js");
 const { DisTube } = require("distube");
 const { YtDlpPlugin } = require("@distube/yt-dlp");
